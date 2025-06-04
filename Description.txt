@@ -1,0 +1,57 @@
+# Website Performance Data Analysis
+Domain: E-commerce, Finance, Healthcare
+
+Overview:
+This project explores the behavior of website users across various traffic sources and time windows. With over 110–120 crore websites globally and more than 60% of web traffic coming from mobile devices (as of 2025), understanding website performance and engagement is crucial for businesses in all sectors.
+
+Dataset:
+The dataset consists of user behavior metrics such as sessions, users, engagement time, and engagement rate, segmented by hour and channel group (e.g., Organic Search, Direct, Social, Email, etc.).
+
+—
+
+Work-Flow:
+
+1. Data Ingestion
+   Loaded website analytics data into a pandas DataFrame for cleaning and preprocessing.
+
+2. Data Preprocessing
+   Converted timestamps, renamed columns, removed invalid rows, and ensured appropriate data types.
+
+3. Exploratory Data Analysis (EDA)
+   Used visualizations and grouped statistics to derive insights.
+
+—
+
+Key Insights (Answers to Questions):
+
+1. What patterns or trends can you observe in website sessions and users over time?
+   Sessions and users show a clear daily cycle, peaking around late morning and early evening. Weekend traffic is slightly lower than weekdays, indicating a business-oriented user base.
+
+2. Which marketing channel brought the highest number of users to the website?
+   Organic Search consistently drives the highest user count, followed by Direct and Referral. This indicates effective SEO and strong brand recall.
+
+3. Which channel has the highest average engagement time, and what does that tell us about user behavior and content effectiveness?
+   Organic Video tend to have higher average engagement times. This suggests that users arriving via targeted campaigns or trusted links are more invested in content.
+
+4. How does engagement rate vary across different traffic channels?
+   Email channel have relatively higher engagement rates, indicating that multimedia and direct marketing may foster better user involvement.
+
+5. Which channels are driving more engagement sessions compared to non-engaged ones, and what strategies can improve engagement in underperforming channels?
+   Channels like Organic Social drives more engaged sessions. Underperforming channels like Email, Organic Video and Unassigned could benefit from better content targeting, A/B testing, and UX optimization.
+
+6. At which hours of the day does each channel drive the most traffic?
+
+   * Direct: Peaks between 18:00–22:00
+   * Organic Search: Highest between 11:00–17:00
+   * Email: Most effective between 08:00–10:00
+   * Social Channels: Peak during late evenings (20:00–23:00)
+     This temporal pattern can help time campaigns and content publishing.
+
+7. Is there any correlation between high traffic (sessions) and high engagement rate over time?
+   Based on the time series plot, there is little to no direct correlation. Sessions often spike independently of the engagement rate, which remains mostly flat. This suggests that quantity of traffic does not directly lead to quality engagement.
+
+—
+
+Conclusion:
+This analysis uncovers critical behavioral patterns and performance gaps across traffic channels. The findings can help in refining digital strategies to improve user acquisition and retention in E-commerce, Finance, and Healthcare platforms.
+
